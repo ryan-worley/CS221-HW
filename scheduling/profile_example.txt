@@ -1,0 +1,27 @@
+# Unit limit per quarter. You can ignore this for the first
+# few questions in problem 2.
+minUnits 6
+maxUnits 20
+
+# These are the quarters that I need to fill. It is assumed that
+# the quarters are sorted in chronological order.
+register Win2018
+register Spr2018
+register Aut2018
+
+# Courses I've already taken
+taken CEE280
+taken CEE285A
+taken CEE203
+
+# Courses that I'm requesting
+request CS221 after CS106A weight 3
+request CEE288 weight 4
+request CEE287 in Spr2018 weight 3
+request CEE385 in Aut2018 weight 2
+request CEE305 in Spr2018
+request CS106A weight 3'
+request CS106B
+request CEE281
+request CS108
+
